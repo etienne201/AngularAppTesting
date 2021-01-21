@@ -1,4 +1,16 @@
 .submit-form {
   max-width: 300px;
   margin: auto;
+  color: #fff;
+}
+.submit-form{
+ 
+  font: italic bold 20px/2px Georgia, serif;
+  
+}
+.form-group label{
+  color: #ff9100;
+  font-weight: 100;
+  font-size: 30;
+  font: italic bold 20px/2px Georgia, serif;
 }

@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { TutorialsListComponent } from './tutorials-list.component';
+import { TutorialsListComponent } from './tutorials-list.component'; 
+import {CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA} from '@angular/core';
 
 describe('TutorialsListComponent', () => {
   let component: TutorialsListComponent;
@@ -9,6 +9,7 @@ describe('TutorialsListComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ TutorialsListComponent ]
+       
     })
     .compileComponents();
   }));
@@ -20,6 +21,6 @@ describe('TutorialsListComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+     expect(component).toBeTruthy();
   });
 });

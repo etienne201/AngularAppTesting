@@ -2,4 +2,30 @@
   text-align: left;
   max-width: 750px;
   margin: auto;
+ 
+}
+.row {
+  color: #181716;
+  font-weight: normal;
+  font-style: oblique;
+   font: italic small-caps bold 20px/45px Georgia, serif;
+}
+.row h4  {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-style: oblique;
+   font: italic small-caps bold 30px/45px Georgia, serif;
+}
+.row p {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-style: oblique;
+   font: italic  bold 25px/50px Georgia, serif;
+}
+.list-group-item li ul{
+  color: #fff;
+  font-weight: normal;
+  font-style: oblique;
+   font: italic  bold 30px/70px Georgia, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }

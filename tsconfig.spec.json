@@ -1,11 +1,15 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
     "types": [
-      "jasmine"
-    ]
+      "jest", // 1
+      "node"
+    ],
+    "esModuleInterop": true, // 2
+    "emitDecoratorMetadata": true, // 3
+    "experimentalDecorators": true,
+    "allowJs": true
   },
   "files": [
     "src/test.ts",

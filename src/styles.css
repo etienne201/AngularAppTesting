@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body     {
+	background: hsl(195, 3%, 27%);
+	font: 100% Arial, Sans Serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}

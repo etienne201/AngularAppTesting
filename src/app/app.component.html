@@ -1,16 +1,22 @@
-<div>
+<div class=" panel panel-default" [ngStyle]="{'background-image': getUrl()}">
+  
   <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a href="#" class="navbar-brand">bezKoder</a>
+    <a href="#" class="navbar-brand">TestApp</a>
     <div class="navbar-nav mr-auto">
       <li class="nav-item">
         <a routerLink="tutorials" class="nav-link">Tutorials</a>
       </li>
       <li class="nav-item">
-        <a routerLink="add" class="nav-link">Add</a>
+        <a routerLink="add"  class="nav-link">Add-Tutorial</a>
       </li>
     </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="login" ><i class="fa fa-user-plus" aria-hidden="true"></i>Login</a></li>  
+      <li><a routerLink="signUp"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign Up</a></li>
+      
+    </ul>
   </nav>
-
+  
   <div class="container mt-3">
     <h2>{{ title }}</h2>
     <router-outlet></router-outlet>

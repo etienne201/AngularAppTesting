@@ -1,4 +1,30 @@
+
+body{
+  height: 100vh;
+  width: 100%;
+}
 .container h2 {
   text-align: center;
   margin: 25px auto;
+}
+.navbar-right ,li,a{
+  color: #fff;
+  padding: 5px;
+  font: italic bold 20px/2px Georgia, serif;
+}
+.navbar-right ,li,a, i{
+  color: #fff;
+  padding: 5px;
+  font: italic bold 20px/2px Georgia, serif;
+}
+.panel-default{
+  width: 100%;
+  height: 100%;
+}
+.container h2{
+  color: #fd8b00;
+  font-weight: 100;
+  font-size: 30;
+  font: italic  bold 45px/45px Georgia, serif;
+  font-family: 'Courier New', Courier, monospace;
 }

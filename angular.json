@@ -127,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular10FirebaseCrudDB"
+    }
+  },
+  "defaultProject": "Angular10FirebaseCrudDB",
+  "cli": {
+    "analytics": "14b42bc7-7ce4-4226-aff2-ee6c1916a39c"
+  }
 }

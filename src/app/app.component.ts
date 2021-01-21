@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular 10 Firebase Database CRUD';
+  title = 'TestApp Jest and cypress';
+// tslint:disable-next-line: typedef
+getUrl()
+{
+  return 'url(\'../assets/images/images.jpg\')';
+}
 }

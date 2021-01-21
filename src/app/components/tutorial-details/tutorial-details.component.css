@@ -2,3 +2,10 @@
   max-width: 300px;
   margin: auto;
 }
+.edit-form{
+  color: #F8F8FF;
+  font-weight: 100;
+  font-size: 30;
+  font: italic  bold 20px/15px Georgia, serif;
+  
+}
