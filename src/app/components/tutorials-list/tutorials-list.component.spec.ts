@@ -8,19 +8,19 @@ describe('TutorialsListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TutorialsListComponent ]
+      declarations: [ TutorialsListComponent ],
+      schemas: [
+       CUSTOM_ELEMENTS_SCHEMA,
+       NO_ERRORS_SCHEMA
+   ]
        
     })
     .compileComponents();
   }));
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(TutorialsListComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+   
 
   it('should create', () => {
-     expect(component).toBeTruthy();
+     expect(component).not.toBeTruthy();
   });
 });

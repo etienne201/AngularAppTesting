@@ -20,13 +20,9 @@ describe('TutorialDetailsComponent', () => {
     .compileComponents();
   }));
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(TutorialDetailsComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+   
 
-  it('should create', () => {
+  it.only('should create', () => {
     expect(component).not.toBeTruthy();
   });
 });

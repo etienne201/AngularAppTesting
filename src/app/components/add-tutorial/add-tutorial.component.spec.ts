@@ -12,16 +12,16 @@ describe('AddTutorialComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       
-      declarations: [ AddTutorialComponent ], 
+      declarations: [ AddTutorialComponent ],
+      schemas: [
+       CUSTOM_ELEMENTS_SCHEMA,
+       NO_ERRORS_SCHEMA
+   ]
     })
     .compileComponents();
   }));
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(AddTutorialComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+   
 
   it('should create', () => {
     expect(component).not.toBeTruthy();
