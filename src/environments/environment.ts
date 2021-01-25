@@ -1,5 +1,6 @@
 export const environment = {
   production: false,
+  apiUrl: 'http://localhost:4000',
   firebase: {
     apiKey: 'xxx',
     authDomain: 'angular-10-crud-db.firebaseapp.com',
